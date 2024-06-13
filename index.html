@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<!--        Título de la página (Aparece en el navegador en la pestaña-->
+        <title>Inicio</title>
+<!--        Hacemos importaciónes, en este caso de lo que es bootstrap y jquery para facilitar un poco el desarrollo, Bootstrap es un framework de diseño CSS y JS hecho por twitter, la idea es que delimita y estiliza la web de una manera uniforme para tener un esqueleto rapidamente sin necesidad de muchas lineas de código... mayormente se caracteriza por hacer mucho uso de las "clases".
+-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<!--Estilos personalizados-->
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+    <body class="text-center">
+        <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+    <!--        ENCABEZADO-->
+<!--            El header cumple la funcion de tener la barra de navegación, la etiqueta header es para organizar la web, forma parte del grupo
+HEADER < encabeazado
+MAIN < Contenido
+FOOTER < Pié de página
+-->
+            <header class="masthead mb-auto">
+<!--                Dentro del header haremos uso de un par de divs para poder delimitar tanto su tamaño, contenido y disposición-->
+                <div class="inner">
+                    <nav class="nav nav-masthead justify-content-center">
+                        <h3 class="masthead-brand mx-5">Proyecto</h3>
+                        <a class="nav-link active" href="#">Inicio</a>
+                        <a class="nav-link" href="./Paginas/catalogo.html">Catalogo</a>
+                        <a class="nav-link" href="./Paginas/contacto.html">Contact</a>
+                        <a class="nav-link" href="./Paginas/nosotros.html">Nosotros</a>
+                    </nav>
+                </div>
+            </header>
+    <!--        CUERPO-->
+            <main role="main" class="inner cover px-10">
+                <div class="imagenFondo">
+                    <div class="textoBanner">
+
+                        <h1 class="cover-heading">ATR Store</h1>
+                        <p class="lead">ATR es una tienda de indumentaria variada enfocada en 3 mercados, deportiva, elegante y urbana para adaptarse a tus necesidades.</p>
+                        <button type="button" class="btn-outline-light rounded" onclick="redireccion()">Sobre nosotros</button>
+                    </div>
+
+                </div>
+            </main>
+
+<!--            FOOTER-->
+            <footer class="mastfoot mt-auto">
+                <div class="inner">
+                    <p>Agus y Mati @Copyright 2024</p>
+                </div>
+            </footer>
+        </div>
+    <script>
+        // para redirigir
+        function redireccion() {
+            window.location.href = "Paginas/nosotros.html"
+        }
+    </script>
+    </body>
+</html>

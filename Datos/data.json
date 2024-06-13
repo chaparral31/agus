@@ -1,0 +1,66 @@
+[
+  {
+    "Categoria": {
+      "Deportivo": {
+        "item1": {
+          "id": 1,
+          "itemName": "Zapatillas",
+          "precio": 49.3,
+          "imgLink": ""
+        },
+        "item2": {
+          "id": 2,
+          "itemName": "Camiseta Deportiva",
+          "precio": 329.3,
+          "imgLink": ""
+        },
+        "item3": {
+          "id": 3,
+          "itemName": "Media Larga",
+          "precio": 29.3,
+          "imgLink": ""
+        }
+      },
+      "Urbano": {
+        "item4": {
+          "id": 4,
+          "itemName": "Zapatillas",
+          "precio": 57.3,
+          "imgLink": ""
+        },
+        "item5": {
+          "id": 5,
+          "itemName": "Buzo",
+          "precio": 229.3,
+          "imgLink": ""
+        },
+        "item6": {
+          "id": 6,
+          "itemName": "Gorras",
+          "precio": 29.3,
+          "imgLink": ""
+        }
+      },
+      "Elegante": {
+        "item7": {
+          "id": 7,
+          "itemName": "Pantalon de vestir",
+          "precio": 677.3,
+          "imgLink": ""
+        },
+        "item8": {
+          "id": 8,
+          "itemName": "Camisas",
+          "precio": 229.3,
+          "imgLink": ""
+        },
+        "item9": {
+          "id": 9,
+          "itemName": "Zapatos",
+          "precio": 149.3,
+          "imgLink": ""
+        }
+      }
+    }
+  }
+]
