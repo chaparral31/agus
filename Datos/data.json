@@ -1,66 +1,74 @@
 [
   {
-    "Categoria": {
-      "Deportivo": {
-        "item1": {
-          "id": 1,
-          "itemName": "Zapatillas",
-          "precio": 49.3,
-          "imgLink": ""
-        },
-        "item2": {
-          "id": 2,
-          "itemName": "Camiseta Deportiva",
-          "precio": 329.3,
-          "imgLink": ""
-        },
-        "item3": {
-          "id": 3,
-          "itemName": "Media Larga",
-          "precio": 29.3,
-          "imgLink": ""
-        }
-      },
-      "Urbano": {
-        "item4": {
-          "id": 4,
-          "itemName": "Zapatillas",
-          "precio": 57.3,
-          "imgLink": ""
-        },
-        "item5": {
-          "id": 5,
-          "itemName": "Buzo",
-          "precio": 229.3,
-          "imgLink": ""
-        },
-        "item6": {
-          "id": 6,
-          "itemName": "Gorras",
-          "precio": 29.3,
-          "imgLink": ""
-        }
-      },
-      "Elegante": {
-        "item7": {
-          "id": 7,
-          "itemName": "Pantalon de vestir",
-          "precio": 677.3,
-          "imgLink": ""
-        },
-        "item8": {
-          "id": 8,
-          "itemName": "Camisas",
-          "precio": 229.3,
-          "imgLink": ""
-        },
-        "item9": {
-          "id": 9,
-          "itemName": "Zapatos",
-          "precio": 149.3,
-          "imgLink": ""
-        }
-      }
-    }
+    "id": 1,
+    "itemName": "Botines",
+    "precio": 15000,
+    "descripcion": "Botines para diferentes variedades de deportes ",
+    "imgLink": "../img/botines.jpg",
+    "categoria": "deportivo"
+  },
+  {
+    "id": 2,
+    "itemName": "Camiseta Deportiva",
+    "precio": 7000,
+    "descripcion": "Camiseta resistente a todos los caminos que tengas que cruzar ",
+    "imgLink": "../img/camiseta deportiva.jpg",
+    "categoria": "deportivo"
+  },
+  {
+    "id": 3,
+    "itemName": "Media Larga",
+    "precio": 2000,
+    "descripcion": "Media de diferente estilo pero util para cualquier ambiente ",
+    "imgLink": "../img/medias.jpg",
+    "categoria": "deportivo"
+  },
+  {
+    "id": 4,
+    "itemName": "Zapatillas",
+    "precio": 6000,
+    "descripcion": "Zapatilla de descanso a su onda ",
+    "imgLink": "../img/zapattilas.jpg",
+    "categoria": "urbano"
+  },
+  {
+    "id": 5,
+    "itemName": "Buzo",
+    "precio": 11000,
+    "descripcion": "Buzo con mucho flow y estilo ",
+    "imgLink": "../img/buzo god.jpg",
+    "categoria": "urbano"
+  },
+  {
+    "id": 6,
+    "itemName": "Gorras",
+    "precio": 4000,
+    "descripcion": "Gorra con muchas combinaciones diferentes y divertidas ",
+    "imgLink": "../img/gorra.jpg",
+    "categoria": "urbano"
+  },
+  {
+    "id": 7,
+    "itemName": "Traje azul marino",
+    "precio": 16000,
+    "descripcion": "Traje completo, color azul marino ",
+    "imgLink": "../img/trajeazul.jpg",
+    "categoria": "elegante"
+  },
+  {
+    "id": 8,
+    "itemName": "Camisas",
+    "precio": 8500,
+    "descripcion": "Camisa chill de color marron ladrillo ",
+    "imgLink": "../img/camisaladrillo.jpg",
+    "categoria": "elegante"
+  },
+  {
+    "id": 9,
+    "itemName": "Zapatos",
+    "precio": 9000,
+    "descripcion": "Zapato elegante con un color de marron noble ",
+    "imgLink": "../img/zapatosmarrones.jpg",
+    "categoria": "elegante"
   }
 ]
